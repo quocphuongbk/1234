@@ -708,15 +708,11 @@
                     'Content-Type': 'application/json'
                 },
                 body: JSON.stringify({
-                    version: "c871bb9b046607b680449ecbae55fd8c6d945e0a1948644bf2361b3d021d3ff4",
+                    version: "29e143729c0ab9162e3fb3eda88e0a40bc2c9c0db42fb06e1a69fb08ca1a3bc1",
                     input: {
-                        human_img: personImage,
-                        garm_img: shirtImage,
-                        garment_des: "shirt",
-                        is_checked: true,
-                        is_checked_crop: false,
-                        denoise_steps: 30,
-                        seed: 42
+                        model_image: personImage,
+                        garment_image: shirtImage,
+                        category: "tops"
                     }
                 })
             });
